@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Segun: http://www.arumeinformatica.es/blog/font-face-incrustando-tipografias-en-una-pagina-web-revisado/ */
+/* Basicamente para que se cargue bien en las versiones de IE, en iPad (svg), e incorpora el nuevo formato 'woff'.
+
+/*
+@font-face {
+	font-family: "kimberley";
+	src: url("fonts/kimberley.eot");
+	src: url("fonts/kimberley.eot?#iefix") format("embedded-opentype"),
+	     url("fonts/kimberley.woff") format("woff"),
+	     url("fonts/kimberley.ttf") format("truetype"),
+	     url("fonts/kimberley.svg#kimberley") format("svg");
+}
+*/
+
+@font-face {
+	font-family: "font-01a"; // "ArnoPro_Caption";
+	src: url("../fonts/ArnoPro-Caption.otf");
+}
+@font-face {
+	font-family: "font-01b"; // "ArnoPro_BoldItalicCaption";
+	src: url("../fonts/ArnoPro-BoldItalicCaption.otf");
+}
+
+@font-face {
+	font-family: "font-02a"; // "ArnoPro-Subhead";
+	src: url("../fonts/ArnoPro-Subhead.otf");
+}
+@font-face {
+	font-family: "font-02b"; // "ArnoPro-ItalicSmText";
+	src: url("../fonts/ArnoPro-ItalicSmText.otf");
+}
+
+@font-face {
+	font-family: "font-03a"; // "ArnoPro-Display";
+	src: url("../fonts/ArnoPro-Display.otf");
+}
+@font-face {
+	font-family: "font-03b"; // "ArnoPro-BoldItalicDisplay";
+	src: url("../fonts/ArnoPro-BoldItalicDisplay.otf");
+}
+
+@font-face {
+	font-family: "font-04a"; // "ArnoPro-SmbdSubhead";
+	src: url("../fonts/ArnoPro-SmbdSubhead.otf");
+}
+@font-face {
+	font-family: "font-04b"; // "ArnoPro-ItalicSmText";
+	src: url("../fonts/ArnoPro-ItalicSmText.otf");
+}
+
+/* ------------   Fuentes ITC Franklin Gothic Std   ------------ */
+@font-face {
+	font-family: "font-05a"; // 
+	//	src: url("../fonts/ITCFranklinGothicStd-BkCp.otf");
+	src: url("../fonts/IFGS_BCp.otf");
+}
+@font-face {
+	font-family: "font-05b"; //
+//	src: url("../fonts/ITCFranklinGothicStd-BkCpIt.otf");
+	src: url("../fonts/IFGS_BCpI.otf");
+}}
+
+@font-face {
+	font-family: "font-06a"; //
+//	src: url("../fonts/ITCFranklinGothicStd-DmCp.otf");
+	src: url("../fonts/IFGS_DmCp.otf");
+}}
+@font-face {
+	font-family: "font-06b"; //
+//	src: url("../fonts/ITCFranklinGothicStd-DmCpIt.otf");
+	src: url("../fonts/IFGS_DmCpI.otf");
+}
+
+@font-face {
+	font-family: "font-07a"; //
+//	src: url("../fonts/ITCFranklinGothicStd-BkCd.otf");
+//	src: url("../fonts/BemboStd.otf");
+	src: url("../fonts/IFGS_BkCd.otf");
+}
+@font-face {
+	font-family: "font-07b"; //
+//	src: url("../fonts/ITCFranklinGothicStd-BkCdIt.otf");
+	src: url("../fonts/IFGS_BkCdI.otf");
+}
+
+@font-face {
+	font-family: "font-08a"; //
+//	src: url("../fonts/ITCFranklinGothicStd-DmCd.otf");
+	src: url("../fonts/IFGS_DmCd.otf");
+}
+@font-face {
+	font-family: "font-08b";
+//	src: url("../fonts/ITCFranklinGothicStd-DmCdIt.otf");
+	src: url("../fonts/IFGS_DmCdI.otf");
+}
+
+
+
+/* ------------   Fuentes Sabon LT Std   ------------ */
+@font-face {
+	font-family: "font-09a"; // 
+//	src: url("../fonts/SabonLTStd_Roman.otf");
+	src: url("../fonts/Sabon_Ro.otf");
+}
+@font-face {
+	font-family: "font-09b"; //
+//	src: url("../fonts/SabonLTStd-Italic.otf");
+	src: url("../fonts/Sabon_I.otf");
+}
+
+@font-face {
+	font-family: "font-10a"; //
+//	src: url("../fonts/SabonLTStd-Bold.otf");
+	src: url("../fonts/Sabon_B.otf");
+}
+@font-face {
+	font-family: "font-10b"; //
+//	src: url("../fonts/SabonLTStd-BoldItalic.otf");
+	src: url("../fonts/Sabon_BI.otf");
+}
+
+@font-face {
+	font-family: "font-11a"; //
+//	src: url("../fonts/SabonLTStd-Roman.otf");
+	src: url("../fonts/Sabon_Ro.otf");
+}
+@font-face {
+	font-family: "font-11b"; //
+//	src: url("../fonts/SabonLTStd-BoldItalic.otf");
+	src: url("../fonts/Sabon_BI.otf");
+}
+@font-face {
+	font-family: "font-12a"; //
+//	src: url("../fonts/SabonLTStd-Bold.otf");
+	src: url("../fonts/Sabon_B.otf");
+}
+@font-face {
+	font-family: "font-12b"; //
+//	src: url("../fonts/SabonLTStd-Italic.otf");
+	src: url("../fonts/Sabon_I.otf");
+}
+
+
+/* ------------   Fuentes Avenir LT Std   ------------ */
+@font-face {
+	font-family: "font-13a"; // 
+//	src: url("../fonts/AvenirLTStd-Light.otf");
+	src: url("../fonts/Avenir_L.otf");
+}
+@font-face {
+	font-family: "font-13b"; //
+//	src: url("../fonts/AvenirLTStd-LightOblique.otf");
+	src: url("../fonts/Avenir_LO.otf");
+}
+
+@font-face {
+	font-family: "font-14a"; // 
+//	src: url("../fonts/AvenirLTStd-Book.otf");
+	src: url("../fonts/Avenir_Bk.otf");
+}
+@font-face {
+	font-family: "font-14b"; //
+//	src: url("../fonts/AvenirLTStd-BookOblique.otf");
+	src: url("../fonts/Avenir_BkOb.otf");
+}
+
+@font-face {
+	font-family: "font-15a"; // 
+//	src: url("../fonts/AvenirLTStd-Roman.otf");
+	src: url("../fonts/Avenir_Ro.otf");
+}
+@font-face {
+	font-family: "font-15b"; //
+//	src: url("../fonts/AvenirLTStd-Oblique.otf");
+	src: url("../fonts/Avenir_Ob.otf");
+}
+
+@font-face {
+	font-family: "font-16a"; // 
+//	src: url("../fonts/AvenirLTStd-Black.otf");
+	src: url("../fonts/Avenir_B.otf");
+}
+@font-face {
+	font-family: "font-16b"; //
+//	src: url("../fonts/AvenirLTStd-BlackOblique.otf");
+	src: url("../fonts/Avenir_BOb.otf");
+}
+
+
+
+
+/* ------------   Fuentes Franklin Gothic   ------------ */
+@font-face {
+	font-family: "font-17a"; // 
+	src: url("../fonts/Fra_Bk.otf");
+}
+@font-face {
+	font-family: "font-17b"; //
+	src: url("../fonts/Fra_BkI.otf");
+}
+
+@font-face {
+	font-family: "font-18a"; // 
+//	src: url("../fonts/FRADM.otf");
+	src: url("../fonts/Fr_Dm.otf");
+}
+@font-face {
+	font-family: "font-18b"; //
+//	src: url("../fonts/FRADMIT.otf");
+	src: url("../fonts/Fr_DmI.otf");
+}
+
+@font-face {
+	font-family: "font-19a"; // 
+//	src: url("../fonts/FRAHV.otf");
+	src: url("../fonts/Fr_HV.otf");
+}}
+@font-face {
+	font-family: "font-19b"; //
+//	src: url("../fonts/FRAHVIT.otf");
+	src: url("../fonts/Fr_HVI.otf");
+}
+
+@font-face {
+	font-family: "font-20a"; //
+//	src: url("../fonts/framd.otf");
+	src: url("../fonts/Fr_Md.otf");
+}
+@font-face {
+	font-family: "font-20b"; //
+//	src: url("../fonts/framdit.otf");
+	src: url("../fonts/Fr_MdI.otf");
+}
+
+
+
+
+/* ------------   Fuentes DIN   ------------ */
+@font-face {
+	font-family: "font-21a"; // 
+//	src: url("../fonts/DINMittelschrift-Regular.otf");
+	src: url("../fonts/DIN_MitReg.otf");
+}
+@font-face {
+	font-family: "font-21b"; //
+//	src: url("../fonts/DINRegularItalic.otf");
+	src: url("../fonts/DIN_RegI.otf");
+}
+
+
+
+/* ------------   Fuentes ITC Garamond Std   ------------ */
+@font-face {
+	font-family: "font-22a"; 
+	src: url("../fonts/ITCGaramondStd-UltCond.otf");
+}
+@font-face {
+	font-family: "font-22b"; 
+	src: url("../fonts/ITCGaramondStd-BdNarrowIta.otf");
+}
+
+@font-face {
+	font-family: "font-23a"; 
+	src: url("../fonts/ITCGaramondStd-UltNarrow.otf");
+}
+@font-face {
+	font-family: "font-23b"; //
+	src: url("../fonts/ITCGaramondStd-UltCondIta.otf");
+}
+
+@font-face {
+	font-family: "font-24a"; // 
+//	src: url("../fonts/ITCGaramondStd-BkCond.otf");
+	src: url("../fonts/IGar_BkCd.otf");
+}
+@font-face {
+	font-family: "font-24b"; //
+//	src: url("../fonts/ITCGaramondStd-LtCondIta.otf");
+	src: url("../fonts/IGar_LtCdI.otf");
+}
+
+@font-face {
+	font-family: "font-25a"; // 
+//	src: url("../fonts/ITCGaramondStd-Lt.otf");
+	src: url("../fonts/IGar_Lt.otf");
+}
+@font-face {
+	font-family: "font-25b"; //
+//	src: url("../fonts/ITCGaramondStd-UltNarrowIta.otf");
+	src: url("../fonts/IGar_UltNrwI.otf");
+}}
+

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Riverrun 2</title>
+<meta charset="utf-8">
+
+  
+<link rel="stylesheet" type="text/css" src="./assets/jquery-ui-1.10.3.custom/css/ui-basico/jquery-ui-1.10.3.custom.css">
+
+
+<script type="text/javascript" src="assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="assets/jQuery_plugins/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="assets/jQuery_plugins/jquery-color/jquery.color.js"></script>
+<script type="text/javascript" src="assets/jQuery_plugins/jquery-fullscreen/jquery.fullscreen-min.js"></script>
+
+
+</head>
+
+<body>
+
+	<div id="tabs">
+		<ul>
+		    <li><a href="#tabs-1">Estilos</a></li>
+		    <li><a href="#tabs-2">Obras</a></li>
+		    <li><a href="#tabs-3">Obra</a></li>
+		</ul>
+
+
+		<div id="tabs-1">
+ÑOGO
+		</div>
+
+		<div id="tabs-2">
+ÑUGU
+		</div>
+	
+
+
+		<div id="tabs-3">
+ÑAGA
+		</div>
+	
+	</div>
+
+	<script type="text/javascript">
+
+		$(document).ready( function() {
+
+
+			$( "#tabs" ).tabs();
+
+
+			// $('#infoObra').hide();
+			// $('#muestraFuentes').hide();
+
+		// 	$('#menu_estilos').click( function() {
+		// 		$('#muestraFuentes').toggle(120);
+		// 	});
+
+		// 	$('#menu_obras').click( function() {
+		// 		$('#containerObras').toggle(120);
+		// 		if($('containerObras').show == true) obrasMgr_update_obras();
+		// 	});
+
+		// 	$('#menu_ocultar').click( function() {
+		// 		$('#contHeader').toggle(120);
+		// 	});
+
+		// 	$('#corner_control').click( function() {
+		// 		$('#muestraFuentes').hide(120);
+		// 	});
+		// 	$('#corner_obras').click( function() {
+		// 		$('#containerObras').hide(120);
+		// 	});
+
+		// 	$('#verCasillas').click( function() {
+		// 		$('#obraCasillas').toggle(120);
+		// 	});
+		// 	$('#verInfCasillas').click( function() {
+		// 		$('.cabecera_casilla').toggle(120);
+		// 	});
+		// 	$('#verUnionCasillas').click( function() {
+		// 		$('#containerTextoObra').toggle(120);
+		// 	});
+
+		// 	$('#mostrarInfoObra').click( function() {
+		// 		$('#infoObra').toggle(120);
+		// 	});
+
+		// 	$('#ctrl_play').click( function() {
+		// 		if(obra.tid==null) {
+		// 			obra.initTimer();
+		// 			$(this).html("PLAYING - pulsar para STOP");
+		// 		} else {
+		// 			obra.abortTimer();
+		// 			$(this).html("STOPPED - pulsar para PLAY");
+		// 		}
+		// 	})
+
+
+		// //	Lectura de lista de obras
+		// 	obrasMgr_update_obras();
+
+		// 	// Eventos de teclado
+		// 	$(document).keydown(handlerKeyDown);
+
+		});
+
+		// eventos de teclado
+		function handlerKeyDown( eTecla ) {
+			//		console.log(eTecla);
+			console.log(eTecla.keyCode);
+			if(eTecla.keyCode == 81) {	// q
+				$('#contHeader').toggle(120);
+			}
+			else if(eTecla.keyCode == 87) {	// w
+				$('#muestraFuentes').toggle(120);
+			}
+			else if(eTecla.keyCode == 69) {	// e
+				$('#containerObras').toggle(120);
+			}
+			else if(eTecla.keyCode == 73) {	// i
+				$('.cabecera_casilla').toggle(120);
+			}
+			else if(eTecla.keyCode == 82) {	// r
+				$('#containerTextoObra').toggle(120);
+		//		$('#contHeader').hide(120);
+			}
+			// else if(eTecla.keyCode == 65) {	// a
+			// }
+			// else if(eTecla.keyCode == 83) {	// s
+			// }
+			else if(eTecla.keyCode == 79) {	// o
+				$('#infoObra').toggle(120);
+			}
+			else if(eTecla.keyCode == 84) {	// t
+				if(tid==null) {
+					initTimer();
+				} else {
+					abortTimer();
+				}
+			}
+// 			else if(eTecla.keyCode == 70) {	// f
+// 				// No lo deja bien en chrome
+// //				$("#obraCasillas").toggleFullScreen(); //fullScreen(true);
+// 			}
+		}
+
+
+
+	</script>
+
+</body>
+
+
+</html>
